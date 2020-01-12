@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
         } while(written < len);
     }
 
-    if(len == -1) {
+    if(len < 0) {
         STDERR("Tod und Verderben");
         return 2;
     }

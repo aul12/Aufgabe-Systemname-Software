@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
     }
 
     if(len == -1) {
-        STDERR("Tot und verderben");
+        STDERR("Tod und Verderben");
         return 2;
     }
 
